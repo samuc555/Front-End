@@ -1,0 +1,215 @@
+.Carrossel {
+    height: 500px;
+
+}
+
+.carousel-inner {
+    height: 500px;
+    width: 75vw;
+}
+
+.input-group {
+    height: 38px;
+    width: 50%;
+}
+
+.form-select {
+    height: 38px;
+}
+
+nav {
+    position: fixed;
+}
+
+.paginacao {
+    width: 75vw;
+}
+
+.pagination {
+    height: 50px;
+}
+
+.RedesSociais {
+    flex-direction: column;
+}
+
+.redes {
+    display: flex;
+}
+
+.Produtos {
+    padding: 2vw;
+}
+
+.SecaoContato {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.AreaTextoContato {
+    height: 200px;
+}
+
+.SectionProduto1{
+width: 50%;
+}
+.SectionProduto2{
+width: 50%;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner {
+        height: 200px;
+        width: 130%;
+    }
+
+    #meucarrossel {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Carrossel {
+        height: 200px;
+
+    }
+
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.199);
+        height: 160px;
+
+    }
+
+    .carousel-caption>p {
+        display: none;
+    }
+
+    .Logo {
+        display: none;
+    }
+
+    .paginacao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paginacao2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-group {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .paginationCima {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    a>p {
+        display: none;
+    }
+
+    .RedesSociais {
+        flex-direction: row;
+    }
+
+    .Produtos {
+        padding: 0vw;
+    }
+
+    .SecaoContato {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .PInput {
+        font-size: 15px;
+    }
+
+    .MainProduto {
+        flex-direction: column;
+        width: 200%;
+    }
+
+    .ImagemProduto {
+        width: 80vw;
+        height: 80px;
+    }
+}
+
+p {
+    font-size: 13px;
+}
+
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.492);
+}
+
+.Produto {
+    height: 340px;
+    width: 180px;
+    border: solid rgb(242, 242, 242) 1px;
+    background-color: rgba(237, 237, 237, 0.492);
+    transition: 200ms;
+    box-shadow: 3px 3px 3px rgb(223, 223, 223);
+}
+
+.Produto:hover {
+    background-color: rgba(223, 223, 223, 0.492);
+    transition: 200ms;
+}
+
+.preco {
+    background-color: rgba(193, 193, 193, 0.492);
+    box-shadow: 2px 2px 2px rgb(223, 223, 223);
+}
+
+.ImagemProduto {
+    height: 30vw;
+    border: solid 1px rgb(185, 185, 185);
+}
+
+.BotaoProduto {
+    width: 230px;
+}
+
+.VejaMaisProdutos {
+    height: 6vw;
+    width: 6vw;
+    border: solid 1px rgb(185, 185, 185);
+    transition: 200ms;
+}
+.VejaMaisProdutos:hover {
+    height: 6vw;
+    width: 6vw;
+    border: solid 1px rgb(185, 185, 185);
+    background-color: rgba(223, 223, 223, 0.492);
+    padding: 0.2vw;
+}
+
+a {
+    text-decoration: none;
+
+    color: black;
+}
+
+footer>div>a:hover {
+    text-decoration: underline;
+    color: rgb(93, 93, 93);
+
+}
+
+.Logo {
+    font-size: 100px;
+}
+
+.ImgProduto {
+    height: 120px;
+}

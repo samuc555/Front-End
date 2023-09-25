@@ -1,0 +1,40 @@
+@media (max-width: 576px){
+    .principal{
+        background-color: white;
+    }
+}
+
+@media (min-width: 576px){
+    .principal{
+        background-image: url(https://th.bing.com/th/id/R.616d2b04a91e99f1416db5a1b5d591ff?rik=P2r1zqxTCYD8hA&riu=http%3a%2f%2fcdn130.picsart.com%2f253669595019212.png&ehk=MfIFfgrq5zRXrVQ5rv5KaOuu4J3NGFKMnnSgdBcPKnE%3d&risl=&pid=ImgRaw&r=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (min-width: 768px){
+    .principal{
+        background-image: url(https://th.bing.com/th/id/R.2ab318e64ad43ebeb5f01ecf5ceb860f?rik=mLxvzAIf2svVtw&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f3%2fIPad-Tablet-PNG-File.png&ehk=oKphxzvL6FA9A9LF9DQeQ5mzrgs4RvJXXmT%2fTt0JPEc%3d&risl=&pid=ImgRaw&r=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (min-width: 992px){
+    .principal{
+        background-image: url(https://pngimg.com/uploads/computer_pc/computer_pc_PNG17492.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (min-width: 1200px){
+    .principal{
+        background-image: url(https://www.pngall.com/wp-content/uploads/2016/03/Television-PNG-HD.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+@media (min-width: 1400px){
+    .principal{
+        background-color: white;
+    }
+}

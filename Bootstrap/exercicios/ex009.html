@@ -1,0 +1,149 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paginação</title>
+
+    <!--* Linkando o Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--* Linkando os ícones do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        img {
+            height: 90px;
+        }
+        body {
+            background: linear-gradient(-45deg, rgb(186, 77, 99), rgb(136, 53, 204), rgb(87, 134, 206) );
+            animation: gradient 10s ease infinite;
+            background-size: 300%;
+            background-repeat: no-repeat;
+            background-position: cover;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+     <main class="text-center">
+        <div class="container">
+            <h1 class="fw-bolder m-5 text-white ">Lista de músicas</h1>
+            <table class="table table-striped ">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Capa</th>
+                        <th>Artista</th>
+                        <th class="d-none d-md-table-cell">Gênero</th>
+                        <th>Duração</th>
+                        <th>Classificação</th>
+                        <th class="d-none d-md-table-cell"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="">
+                        <td class="align-middle ">#1</td>
+                        <td class="align-middle "><img class="shadow " src="https://th.bing.com/th/id/R.498f21a86414dd7b83e2cddc2cd314ae?rik=4YyR32sA93jtjw&riu=http%3a%2f%2fchavorrucos.com%2fwp-content%2fuploads%2f2018%2f01%2f3402354-Billie-Jean-Extended-Remix.jpg&ehk=Mh8GbUqMWk0s8Lyg8PTb2z%2bLwWbQpRtdBoODSJlMZRE%3d&risl=&pid=ImgRaw&r=0" alt=""></td>
+                        <td class="align-middle ">Miguel Joséfão</td>
+                        <td class="align-middle d-none d-md-table-cell">POP</td>
+                        <td class="align-middle ">4:54</td>
+                        <td class="align-middle ">
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                        </td>
+                        <td class="align-middle d-none d-md-table-cell">
+                            <i class="bi bi-pencil-fill text-primary "></i>
+                            <i class="bi bi-info-circle-fill text-success "></i>
+                            <i class="bi bi-trash3-fill text-danger "></i>
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td class="align-middle ">#2</td>
+                        <td class="align-middle "><img class="shadow " src="https://th.bing.com/th/id/R.498f21a86414dd7b83e2cddc2cd314ae?rik=4YyR32sA93jtjw&riu=http%3a%2f%2fchavorrucos.com%2fwp-content%2fuploads%2f2018%2f01%2f3402354-Billie-Jean-Extended-Remix.jpg&ehk=Mh8GbUqMWk0s8Lyg8PTb2z%2bLwWbQpRtdBoODSJlMZRE%3d&risl=&pid=ImgRaw&r=0" alt=""></td>
+                        <td class="align-middle ">Miguel Joséfão</td>
+                        <td class="align-middle d-none d-md-table-cell">POP</td>
+                        <td class="align-middle ">4:54</td>
+                        <td class="align-middle ">
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                        </td>
+                        <td class="align-middle d-none d-md-table-cell">
+                            <i class="bi bi-pencil-fill text-primary "></i>
+                            <i class="bi bi-info-circle-fill text-success "></i>
+                            <i class="bi bi-trash3-fill text-danger "></i>
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td class="align-middle ">#3</td>
+                        <td class="align-middle "><img class="shadow " src="https://th.bing.com/th/id/R.498f21a86414dd7b83e2cddc2cd314ae?rik=4YyR32sA93jtjw&riu=http%3a%2f%2fchavorrucos.com%2fwp-content%2fuploads%2f2018%2f01%2f3402354-Billie-Jean-Extended-Remix.jpg&ehk=Mh8GbUqMWk0s8Lyg8PTb2z%2bLwWbQpRtdBoODSJlMZRE%3d&risl=&pid=ImgRaw&r=0" alt=""></td>
+                        <td class="align-middle ">Miguel Joséfão</td>
+                        <td class="align-middle d-none d-md-table-cell">POP</td>
+                        <td class="align-middle ">4:54</td>
+                        <td class="align-middle ">
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                            <i class="bi bi-star-fill text-warning "></i>
+                        </td>
+                        <td class="align-middle d-none d-md-table-cell">
+                            <i class="bi bi-pencil-fill text-primary "></i>
+                            <i class="bi bi-info-circle-fill text-success "></i>
+                            <i class="bi bi-trash3-fill text-danger "></i>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+
+            <ul class="pagination justify-content-center m-5">
+                <li class="page-item">
+                    <a href="#" class="page-link">Primeira</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">1</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">3</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">489</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">Próxima</a>
+                </li>
+            </ul>
+
+        </div>
+    </main>
+
+</body>
+
+</html>

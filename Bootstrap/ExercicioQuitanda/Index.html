@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quitanda do Grilo</title>
+
+    <!--* Linkando o Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--* Linkando os ícones do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar bg-success navbar-expand-sm navbar-dark ">
+        <div class="container">
+            <a href="Index.html--" class="navbar-brand fw-bolder border-end p-3">
+                <i class="bi bi-basket2-fill me-2 "></i>
+                Quitanda do Grilo
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between" id="menu">
+                <div class="navbar-nav gap-3">
+                    <a href="#" class="nav-link  ">Principal </a>
+                    <a href="contato.html" class="nav-link">Contato</a>
+                </div>
+                <div class="d-flex gap-3 navbar-nav">
+                    <a href="cadastro.html" class="nav-link  "> Quero me cadastrar </a>
+                    <a href="#" class="nav-link">Entrar </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container   align-items-center d-flex flex-column ">
+        <section id="meucarrossel" class="carousel carousel-dark slide" data-bs-ride="carousel ">
+
+            <!--? Indicadores do banner-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="0"
+                    class="active bg-white"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="1" class="bg-white"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="2" class="bg-white"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="3" class="bg-white"></button>
+            </div>
+
+            <!--? Lista de imagens  Banners -->
+            <div class="carousel-inner mt-4 ">
+                <!--? Imagem -->
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img class="w-100  Carrossel"
+                        src="https://i.pinimg.com/originals/d3/14/a8/d314a841c64bccc383904360fc9cb4b4.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1 class="text-white fw-bolder"><i class="bi bi-basket2-fill me-2 "></i>Quitanda do Grilo</h1>
+                        <p class="text-white fw-medium ">Comidas orgânicas, saudáveis e sem agrotóxicos!</p>
+                        <button class="btn bg-white mb-2  ">Saiba mais</button>
+                    </div>
+                </div>
+                <!--? Imagem 2 -->
+                <div class="carousel-item Carrossel">
+                    <img class="w-100 "
+                        src="https://img-cdn.brainberries.co/wp-content/uploads/2020/03/Manfaat-Menjadi-Vegetarian-01.jpg"
+                        alt="">
+                    <div class="carousel-caption">
+                        <h1 class="text-white fw-bolder"><i class="bi bi-basket2-fill me-2 "></i>Quitanda do Grilo</h1>
+                        <p class="text-white fw-medium ">Tudo de Frutas, legumes, vegetais e muito mais!</p>
+                        <button class="btn bg-white   ">Saiba mais</button>
+                    </div>
+                </div>
+
+                <!--? Imagem 3 -->
+                <div class="carousel-item Carrossel">
+                    <img class="w-100 "
+                        src="https://th.bing.com/th/id/R.8124d1ae0b95fd74593d4c166b108899?rik=ZZ3OugMWZtu0Mg&riu=http%3a%2f%2fwww.laguiademonteria.co%2fwp-content%2fuploads%2f2014%2f10%2fluchagas.jpg&ehk=36ooodesN08lZtNZNpne9yVnGv9egKllXaAqDUO3chg%3d&risl=&pid=ImgRaw&r=0"
+                        alt="">
+                    <div class="carousel-caption">
+                        <h1 class="text-white fw-bolder"><i class="bi bi-basket2-fill me-2 "></i>Quitanda do Grilo</h1>
+                        <p class="text-white fw-medium ">Ofertas com até 40% de desconto!</p>
+                        <button class="btn bg-white mb-2  ">Saiba mais</button>
+                    </div>
+                </div>
+
+                <!--? Imagem 4 -->
+                <div class="carousel-item Carrossel">
+                    <img class="w-100 "
+                        src="https://www.morfasfamilydentistry.com/wp-content/uploads/2021/12/fruites-and-veggie-picture-2048x1365.jpg"
+                        alt="">
+                    <div class="carousel-caption">
+                        <h1 class="text-white fw-bolder"><i class="bi bi-basket2-fill me-2 "></i>Quitanda do Grilo</h1>
+                        <p class="text-white fw-medium ">Tudo isso e muito mais!</p>
+                        <button class="btn bg-white mb-2  ">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#meucarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon "></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#meucarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </section>
+        <section class="d-flex paginacao justify-content-between m-3  border-top pt-3  ">
+            <div class="input-group ">
+                <input type="text" class="form-control " placeholder="Digite aqui o que procura">
+                <button class="btn btn-success "><i class="bi bi-search"></i></button>
+            </div>
+            <div class="d-flex gap-3 paginacao2">
+                <ul class="pagination justify-content-center paginationCima">
+                    <li class="page-item">
+                        <a href="#" class="page-link text-black">Primeira</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link text-black">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link text-black">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link text-black">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link text-black">Última</a>
+                    </li>
+                </ul>
+                <select name="" id="" class="form-select ">
+                    <option value="">Ordenar por nome</option>
+                    <option value="">Ordenar por preço</option>
+                    <option value="">Ordenar por quantidade</option>
+                </select>
+            </div>
+        </section>
+        <section class="mb-5 d-flex gap-2 row justify-content-center Produtos">
+            <div class="Produto text-center ">
+                <img class="ImgProduto" src="https://frutasbrasilsul.com.br/wp-content/uploads/banana-nanica.png"
+                    alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> Banana nanica </strong></p>
+                <p>Banana nanica do melhor preço, a melhor qualidade, produzida sem agrotóxicos</p>
+                <a class="btn btn-success" href="produto.html"> Veja mais...</a>
+            </div>
+            <div class="Produto text-center" >
+                <img class="ImgProduto"
+                    src="https://www.aldi.pt/content/dam/aldi/portugal/products/6000-6999/6195.png/_jcr_content/renditions/opt.1250w.png.res/1574866179831/opt.1250w.png"
+                    alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> Abacate </strong></p>
+                <p>Abacate do melhor preço, a melhor qualidade, produzido sem agrotóxicos</p>
+                <a class="btn btn-success " href="produto.html"> Veja mais...</a>
+            </div>
+            <div class="Produto text-center col-12 col-lg-3 ">
+                <img class="ImgProduto"
+                    src="https://th.bing.com/th/id/R.23d8f5ea39a2794f0e0ddcbefe9f6a31?rik=YKinkin4T6AMbQ&pid=ImgRaw&r=0"
+                    alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> Abacaxi </strong></p>
+                <p>Abacaxi do melhor preço, a melhor qualidade, produzido sem agrotóxicos</p>
+                <a class="btn btn-success " href="produto.html"> Veja mais...</a>
+            </div>
+            <div class="Produto text-center col-12 col-sm-10  col-md-8 col-lg-6 col-xl-4 col-xxl-2">
+                <img class="ImgProduto"
+                    src="https://th.bing.com/th/id/R.0198e9de25340fe89d5ede371f6e6637?rik=BcEpnQRz4LzmwQ&pid=ImgRaw&r=0&sres=1&sresct=1"
+                    alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> morango </strong></p>
+                <p>Morango do melhor preço, a melhor qualidade, produzido sem agrotóxicos</p>
+                <a class="btn btn-success " href="produto.html"> Veja mais...</a>
+            </div>
+            <div class="Produto text-center col-12 col-sm-10  col-md-8 col-lg-6 col-xl-4 col-xxl-2">
+                <img class="ImgProduto" src="https://symphonia.com.gr/wp-content/uploads/2019/04/Kiwi.png" alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> Kiwi </strong></p>
+                <p>Kiwi do melhor preço, a melhor qualidade, produzido sem agrotóxicos</p>
+                <a class="btn btn-success " href="produto.html"> Veja mais...</a>
+            </div>
+
+            <div class="Produto text-center ">
+                <img class="ImgProduto" src="https://frutasbrasilsul.com.br/wp-content/uploads/banana-nanica.png"
+                    alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> Banana nanica </strong></p>
+                <p>Banana nanica do melhor preço, a melhor qualidade, produzida sem agrotóxicos</p>
+                <a class="btn btn-success " href="produto.html"> Veja mais...</a>
+            </div>
+            <div class="Produto text-center ">
+                <img class="ImgProduto"
+                    src="https://www.aldi.pt/content/dam/aldi/portugal/products/6000-6999/6195.png/_jcr_content/renditions/opt.1250w.png.res/1574866179831/opt.1250w.png"
+                    alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> Abacate </strong></p>
+                <p>Abacate do melhor preço, a melhor qualidade, produzido sem agrotóxicos</p>
+                <a class="btn btn-success " href="produto.html"> Veja mais...</a>
+            </div>
+            <div class="Produto text-center col-12 col-lg-3 ">
+                <img class="ImgProduto"
+                    src="https://th.bing.com/th/id/R.23d8f5ea39a2794f0e0ddcbefe9f6a31?rik=YKinkin4T6AMbQ&pid=ImgRaw&r=0"
+                    alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> Abacaxi </strong></p>
+                <p>Abacaxi do melhor preço, a melhor qualidade, produzido sem agrotóxicos</p>
+                <a class="btn btn-success " href="produto.html"> Veja mais...</a>
+            </div>
+            <div class="Produto text-center col-12 col-sm-10  col-md-8 col-lg-6 col-xl-4 col-xxl-2">
+                <img class="ImgProduto"
+                    src="https://th.bing.com/th/id/R.0198e9de25340fe89d5ede371f6e6637?rik=BcEpnQRz4LzmwQ&pid=ImgRaw&r=0&sres=1&sresct=1"
+                    alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> morango </strong></p>
+                <p>Morango do melhor preço, a melhor qualidade, produzido sem agrotóxicos</p>
+                <a class="btn btn-success " href="produto.html"> Veja mais...</a>
+            </div>
+            <div class="Produto text-center col-12 col-sm-10  col-md-8 col-lg-6 col-xl-4 col-xxl-2">
+                <img class="ImgProduto" src="https://symphonia.com.gr/wp-content/uploads/2019/04/Kiwi.png" alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> Kiwi </strong></p>
+                <p>Kiwi do melhor preço, a melhor qualidade, produzido sem agrotóxicos</p>
+                <a class="btn btn-success " href="produto.html"> Veja mais...</a>
+            </div>
+            <div class="Produto text-center ">
+                <img class="ImgProduto" src="https://frutasbrasilsul.com.br/wp-content/uploads/banana-nanica.png"
+                    alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> Banana nanica </strong></p>
+                <p>Banana nanica do melhor preço, a melhor qualidade, produzida sem agrotóxicos</p>
+                <a class="btn btn-success " href="produto.html"> Veja mais...</a>
+            </div>
+            <div class="Produto text-center ">
+                <img class="ImgProduto"
+                    src="https://www.aldi.pt/content/dam/aldi/portugal/products/6000-6999/6195.png/_jcr_content/renditions/opt.1250w.png.res/1574866179831/opt.1250w.png"
+                    alt="">
+                <p class="preco">R$328,99</p>
+                <p><strong> Abacate </strong></p>
+                <p>Abacate do melhor preço, a melhor qualidade, produzido sem agrotóxicos</p>
+                <a class="btn btn-success "> Veja mais...</a>
+            </div>
+        </section>
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a href="#" class="page-link text-black">Primeira</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link text-black">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link text-black">2</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link text-black">3</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link text-black">Última</a>
+            </li>
+        </ul>
+    </main>
+    <hr>
+    <footer class="d-flex justify-content-around align-items-center container mb-3 ">
+
+        <div class="flex-column d-flex text-center">
+            <a href="#" class=" m-2 ">Política de privacidade</a>
+            <a href="#" class=" m-2">Impacto ambiental</a>
+            <a href="#" class=" m-2">Impacto social</a>
+            <a href="#" class=" m-2">Colaboradores</a>
+        </div>
+
+        <div class=" d-flex text-center RedesSociais">
+            <a href="#" class="dropdown-item m-2 redes gap-2 "><i class="bi bi-instagram"></i>
+                <p>Instagram</p>
+            </a>
+            <a href="#" class="dropdown-item m-2 redes gap-2"><i class="bi bi-whatsapp"></i>
+                <p>WhatsApp</p>
+            </a>
+            <a href="#" class="dropdown-item m-2 redes gap-2"><i class="bi bi-facebook"></i>
+                <p>Facebook</p>
+            </a>
+            <a href="#" class="dropdown-item m-2 redes gap-2"><i class="bi bi-twitter"></i>
+                <p>Twitter</p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+<!--* Linkando o JavaScript do Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

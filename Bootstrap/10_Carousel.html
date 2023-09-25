@@ -1,0 +1,73 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrosel de imagens</title>
+
+    <!--* Linkando o Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--* Linkando os ícones do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <main>
+
+        <!--? Sessão do carrossel -->
+        <section id="meucarrossel" class="carousel carousel-dark slide" data-bs-ride="carousel ">
+
+            <!--? Indicadores do banner-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="0" class="active bg-white"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="1" class="bg-white"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="2" class="bg-white"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="3" class="bg-white"></button>
+            </div>
+
+            <!--? Lista de imagens  Banners -->
+            <div class="carousel-inner">
+                <!--? Imagem -->
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img class="w-100 " src="https://picsum.photos/1280/420?random=1" alt="">
+                    <div class="carousel-caption">
+                        <h4 class="text-white fw-bolder ">Primeiro</h4>
+                        <p class="text-white fw-medium ">Algum texto</p>
+                        <button class="btn bg-white ">Saiba mais</button>
+                    </div>
+                </div>
+                <!--? Imagem 2 -->
+                <div class="carousel-item">
+                    <img class="w-100 " src="https://picsum.photos/1280/420?random=2" alt="">
+                </div>
+
+                <!--? Imagem 3 -->
+                <div class="carousel-item">
+                    <img class="w-100 " src="https://picsum.photos/1280/420?random=3" alt="">
+                </div>
+
+                <!--? Imagem 4 -->
+                <div class="carousel-item">
+                    <img class="w-100 " src="https://picsum.photos/1280/420?random=4" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#meucarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon "></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#meucarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </section>
+    </main>
+</body>
+
+<!--* Linkando o JavaScript do Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

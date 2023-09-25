@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em contato</title>
+
+    <!--* Linkando o Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--* Linkando os ícones do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar bg-success navbar-expand-sm navbar-dark ">
+        <div class="container">
+            <a href="Index.html" class="navbar-brand fw-bolder border-end p-3">
+                <i class="bi bi-basket2-fill me-2 "></i>
+                Quitanda do Grilo
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between" id="menu">
+                <div class="navbar-nav gap-3">
+                    <a href="#" class="nav-link  ">Principal </a>
+                    <a href="#" class="nav-link">Contato</a>
+                </div>
+                <div class="d-flex gap-3 navbar-nav">
+                    <a href="cadastro.html" class="nav-link  "> Quero me cadastrar </a>
+                    <a href="#" class="nav-link">Entrar </a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <section class="SecaoContato">
+            <h1 class="fw-bolder mt-5">Entre em contato</h1>
+            <p class="mt-5 PInput">Nome completo</p>
+            <input type="text" class="form-control mt-1" placeholder="Digite seu nome completo">
+            <p class="mt-4 PInput">E-mail</p>
+            <input type="text" class="form-control mt-1" placeholder="Digite seu E-mail">
+            <textarea class="form-control mt-5 mb-3 AreaTextoContato"></textarea>
+            <button class="btn btn-success BotaoProduto"> Enviar mensagem</button>
+            <p class="mt-5 mb-4">Faremos nosso melhor para responder sua mensagem em até 2 dias úteis</p>
+            <p class="mb-5">Atenciosamente <br>
+            Central de Relacionamento Quitanda do Grilo</p>
+        </section>
+    </main>
+    <hr>
+    <footer class="d-flex justify-content-around align-items-center container mb-3 ">
+
+        <div class="flex-column d-flex text-center">
+            <a href="#" class=" m-2">Política de privacidade</a>
+            <a href="#" class=" m-2">Impacto ambiental</a>
+            <a href="#" class=" m-2">Impacto social</a>
+            <a href="#" class=" m-2">Colaboradores</a>
+        </div>
+
+        <div class=" d-flex text-center RedesSociais">
+            <a href="#" class="dropdown-item m-2 redes gap-2 "><i class="bi bi-instagram"></i>
+                <p>Instagram</p>
+            </a>
+            <a href="#" class="dropdown-item m-2 redes gap-2 "><i class="bi bi-whatsapp"></i>
+                <p>WhatsApp</p>
+            </a>
+            <a href="#" class="dropdown-item m-2 redes gap-2 "><i class="bi bi-facebook"></i>
+                <p>Facebook</p>
+            </a>
+            <a href="#" class="dropdown-item m-2 redes gap-2 "><i class="bi bi-twitter"></i>
+                <p>Twitter</p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+<!--* Linkando o JavaScript do Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>
